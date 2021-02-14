@@ -259,3 +259,6 @@ ul li.active a{
     animation-delay: 7s;
     width: 25px;
 }
+.video{
+    width: 250px;
+    bottom: 20px;
