@@ -258,10 +258,4 @@ ul li.active a{
 .bubbles img:nth-child(1){
     animation-delay: 7s;
     width: 25px;
-}
-.video{
-    width: 250px;
-    bottom: 20px;
-   
-    
-}
+
