@@ -5,15 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login page</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MZXLG7QYLV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-MZXLG7QYLV');
-</script>
+    <link rel="icon" href="img/favicon.ico">
 </head>
 <body>
     <div class="bar">
@@ -24,14 +16,15 @@
             <li><a href="Sign up.html">Sign up</a></li>
         </ul>
         </div>
-        <div>
-            <form action="">
-                <label>Your Name:</label>
-                <input type="text" name="value=">
+        
+        <div class="login">
+            <form action="emailto:lastoption@gmail.com" method="POST" enctype="text/plain">
+                <label style="color: chartreuse;">Your Email:</label>
+                <input type="email" name="youremail=">
                 <br>
-                <label for="">Password:</label>
+                <label style="color: chartreuse;">Password:</label>
                 <input type="Password" name="value">
-                <br>
+            
                 <input type="submit">
             
             </form>
